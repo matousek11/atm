@@ -1,9 +1,10 @@
 #include <iostream>
+#include "services/AtmConsole.h"
 
 int main(){
-    std::cout << "Welcome in ATM." << std::endl;
-    std::cout << "Enter your pin:" << std::endl;
-    int pin = 0;
-    std::cin >> pin;
-    std::cout << pin;
+    AtmConsole _atmConsole;
+    _atmConsole.login();
+    _atmConsole.withdraw();
+    std::cin.get();
+    std::cin.get();
 }
