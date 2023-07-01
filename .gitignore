@@ -1,0 +1,6 @@
+cmake_install.cmake_install
+CMakeCache.txt
+main.dSYM/
+CMakeFiles/
+Makefile/
+build/
