@@ -22,6 +22,8 @@ int main()
         break;
     }
 
+    std::cout << std::endl
+              << "Press any key to exit.";
     std::cin.get();
     std::cin.get();
 }

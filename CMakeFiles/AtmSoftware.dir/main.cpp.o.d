@@ -414,4 +414,5 @@ CMakeFiles/AtmSoftware.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmConsole.h \
-  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.h
+  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.h \
+  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/../objects/User.h

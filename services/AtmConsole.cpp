@@ -11,7 +11,7 @@ int AtmConsole::chooseAction()
     std::cout << "Select number of action:" << std::endl;
     std::cout << "1-Ballance statement" << std::endl;
     std::cout << "2-Withdraw money" << std::endl;
-    std::cout << "3-Ballance statement" << std::endl;
+    std::cout << "3-Insert money" << std::endl;
     int input = 0;
     std::cin >> input;
     return input;
@@ -19,7 +19,8 @@ int AtmConsole::chooseAction()
 
 void AtmConsole::ballanceStatement()
 {
-    std::cout << "balance";
+    std::cout << "Your balance is: ";
+    std::cout << this->user.balance << " Kč" << std::endl;
 }
 
 void AtmConsole::withdraw()
@@ -29,7 +30,12 @@ void AtmConsole::withdraw()
 
 void AtmConsole::insertMoney()
 {
-    std::cout << "Insert money";
+    std::cout << "Insert money" << std::endl;
+    std::cout << "How many do you want to insert? ";
+    int newMoney = 0;
+    std::cin >> newMoney;
+    this->user.balance = this->user.balance + newMoney;
+    std::cout << "New ballance is: " << this->user.balance;
 }
 
 void AtmConsole::login()
@@ -51,4 +57,5 @@ void AtmConsole::login()
             correctPin = true;
         }
     }
+    std::cout << "Welcome " + this->user.name << ", ";
 }
