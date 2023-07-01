@@ -417,10 +417,12 @@ CMakeFiles/MyExecutable.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmConsole.h
+ /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.h
 
 CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.o
  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmConsole.cpp
  /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmConsole.h
+ /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site
@@ -834,4 +836,8 @@ CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+
+CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.o
+ /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.cpp
+ /Users/lukasmatousek/Desktop/programovani/ostatni/cpp/atm/services/AtmLogic.h
 

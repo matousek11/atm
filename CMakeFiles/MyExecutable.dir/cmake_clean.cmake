@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyExecutable.dir/main.cpp.o.d"
   "CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.o"
   "CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.o.d"
+  "CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.o"
+  "CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.o.d"
   "MyExecutable"
   "MyExecutable.pdb"
 )

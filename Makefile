@@ -177,6 +177,30 @@ services/AtmConsole.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.s
 .PHONY : services/AtmConsole.cpp.s
 
+services/AtmLogic.o: services/AtmLogic.cpp.o
+.PHONY : services/AtmLogic.o
+
+# target to build an object file
+services/AtmLogic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.o
+.PHONY : services/AtmLogic.cpp.o
+
+services/AtmLogic.i: services/AtmLogic.cpp.i
+.PHONY : services/AtmLogic.i
+
+# target to preprocess a source file
+services/AtmLogic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.i
+.PHONY : services/AtmLogic.cpp.i
+
+services/AtmLogic.s: services/AtmLogic.cpp.s
+.PHONY : services/AtmLogic.s
+
+# target to generate assembly for a file
+services/AtmLogic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.s
+.PHONY : services/AtmLogic.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... services/AtmConsole.o"
 	@echo "... services/AtmConsole.i"
 	@echo "... services/AtmConsole.s"
+	@echo "... services/AtmLogic.o"
+	@echo "... services/AtmLogic.i"
+	@echo "... services/AtmLogic.s"
 .PHONY : help
 
 
