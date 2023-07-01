@@ -2,12 +2,17 @@
 #define ATMCONSOLE_H
 #include "AtmLogic.h"
 
-class AtmConsole{
-    public:
-        AtmConsole();
-        void withdraw(void);
-        void login(void);
-    private:
-        AtmLogic _atmLogic;
+class AtmConsole
+{
+public:
+    AtmConsole();
+    int chooseAction(void);
+    void ballanceStatement(void);
+    void insertMoney(void);
+    void withdraw(void);
+    void login(void);
+
+private:
+    AtmLogic _atmLogic;
 };
 #endif

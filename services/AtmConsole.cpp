@@ -6,9 +6,30 @@ AtmConsole::AtmConsole()
 {
 }
 
+int AtmConsole::chooseAction()
+{
+    std::cout << "Select number of action:" << std::endl;
+    std::cout << "1-Ballance statement" << std::endl;
+    std::cout << "2-Withdraw money" << std::endl;
+    std::cout << "3-Ballance statement" << std::endl;
+    int input = 0;
+    std::cin >> input;
+    return input;
+}
+
+void AtmConsole::ballanceStatement()
+{
+    std::cout << "balance";
+}
+
 void AtmConsole::withdraw()
 {
     std::cout << "withdraw";
+}
+
+void AtmConsole::insertMoney()
+{
+    std::cout << "Insert money";
 }
 
 void AtmConsole::login()

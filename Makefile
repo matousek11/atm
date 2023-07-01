@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyExecutable
+# Target rules for targets named AtmSoftware
 
 # Build rule for target.
-MyExecutable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyExecutable
-.PHONY : MyExecutable
+AtmSoftware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AtmSoftware
+.PHONY : AtmSoftware
 
 # fast build rule for target.
-MyExecutable/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/build
-.PHONY : MyExecutable/fast
+AtmSoftware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/build
+.PHONY : AtmSoftware/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 services/AtmConsole.o: services/AtmConsole.cpp.o
@@ -158,7 +158,7 @@ services/AtmConsole.o: services/AtmConsole.cpp.o
 
 # target to build an object file
 services/AtmConsole.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmConsole.cpp.o
 .PHONY : services/AtmConsole.cpp.o
 
 services/AtmConsole.i: services/AtmConsole.cpp.i
@@ -166,7 +166,7 @@ services/AtmConsole.i: services/AtmConsole.cpp.i
 
 # target to preprocess a source file
 services/AtmConsole.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmConsole.cpp.i
 .PHONY : services/AtmConsole.cpp.i
 
 services/AtmConsole.s: services/AtmConsole.cpp.s
@@ -174,7 +174,7 @@ services/AtmConsole.s: services/AtmConsole.cpp.s
 
 # target to generate assembly for a file
 services/AtmConsole.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmConsole.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmConsole.cpp.s
 .PHONY : services/AtmConsole.cpp.s
 
 services/AtmLogic.o: services/AtmLogic.cpp.o
@@ -182,7 +182,7 @@ services/AtmLogic.o: services/AtmLogic.cpp.o
 
 # target to build an object file
 services/AtmLogic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmLogic.cpp.o
 .PHONY : services/AtmLogic.cpp.o
 
 services/AtmLogic.i: services/AtmLogic.cpp.i
@@ -190,7 +190,7 @@ services/AtmLogic.i: services/AtmLogic.cpp.i
 
 # target to preprocess a source file
 services/AtmLogic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmLogic.cpp.i
 .PHONY : services/AtmLogic.cpp.i
 
 services/AtmLogic.s: services/AtmLogic.cpp.s
@@ -198,7 +198,7 @@ services/AtmLogic.s: services/AtmLogic.cpp.s
 
 # target to generate assembly for a file
 services/AtmLogic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/services/AtmLogic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AtmSoftware.dir/build.make CMakeFiles/AtmSoftware.dir/services/AtmLogic.cpp.s
 .PHONY : services/AtmLogic.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyExecutable"
+	@echo "... AtmSoftware"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
