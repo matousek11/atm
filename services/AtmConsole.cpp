@@ -1,6 +1,7 @@
 #include "AtmConsole.h"
 #include <iostream>
 #include "AtmLogic.h"
+#include <vector>
 
 AtmConsole::AtmConsole()
 {
@@ -25,7 +26,16 @@ void AtmConsole::ballanceStatement()
 
 void AtmConsole::withdraw()
 {
-    std::cout << "withdraw";
+    std::cout << "Ballance: " << this->user.balance << " Kč." << std::endl;
+    std::cout << "How many do you want to withdraw? ";
+    int moneyToWithdraw = 0;
+    std::cin >> moneyToWithdraw;
+    if (moneyToWithdraw > this->user.balance)
+        std::cout << "You don't have enough money to withdraw " << moneyToWithdraw << " Kč.";
+    else
+    {
+        this->_atmLogic.getVariantsOfReturn(moneyToWithdraw, this->user.balance, 5);
+    }
 }
 
 void AtmConsole::insertMoney()
@@ -57,5 +67,6 @@ void AtmConsole::login()
             correctPin = true;
         }
     }
-    std::cout << "Welcome " + this->user.name << ", ";
+    std::cout << std::endl
+              << "Welcome " + this->user.name << ", ";
 }
